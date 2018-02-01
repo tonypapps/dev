@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Semantic Markup</title>
+  </head>
+  <body>
+  <!-- write a comment -->
+    <div class="container">
+      <header>
+        <h1>Semantic Markup</h1>
+        <!-- nav once per page main internal navigation links only -->
+        <!-- nav>ul>li*5>a[#]{Link $} -->
+        <nav>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- figure tags for informtaion images -->
+      <!-- figure*2>img[src="http:placehold.it/200x200" alt="place holder $"] -->
+      <figure><img src="http://placehold.it/200x200" alt="place holder 1"><figcaption>Awesome Images</figcaption></figure>
+      <figure><img src="http://placehold.it/200x200" alt="place holder 2"><figcaption>Awesome Images</figcaption></figure>
+      <!-- control alt = edit points -->
+      <!-- main>h2+p*2>lorem    -->
+      <!-- Main is main content of the page -->
+      <main>
+            <h2>Main</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit mollitia labore sit totam, unde necessitatibus rem numquam laudantium, atque amet blanditiis non eius facere sunt accusamus esse qui hic iure.</p>
+            <p>Magnam error officia itaque maiores ratione nemo esse at saepe dicta nostrum dolor autem animi similique illo, ea ab nulla quaerat possimus libero nihil, voluptas perspiciatis natus assumenda. Error, rerum!</p>
+      </main>
+      <!-- section  group things together semantically -->
+      <!-- section>h2+p*2>lorem     -->
+      <section>
+         <h2>Sections</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, possimus, optio. Odit cumque perspiciatis iure nulla nostrum, repudiandae sequi eum vitae. Eos provident officiis illum excepturi nisi maxime dolorem inventore.</p>
+         <p>Quos voluptatum, amet sed, odit fuga nesciunt adipisci voluptate vero consequuntur, cumque nostrum. Inventore, quia dolorum, officiis voluptatibus nisi similique vel repudiandae consequatur autem at ipsum, aspernatur in eum reiciendis!</p>
+      </section>
+      <!-- article>h2+p*2>lorem  -->
+      <!-- article independent stand alone syndactation  -->
+      <section>
+        <h2>Wrapper</h2>
+        <article>
+           <h2>Article</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus qui natus, numquam et! Error exercitationem sapiente voluptates corporis nobis consequuntur, consequatur labore deleniti magni sequi voluptatibus corrupti sed quas, fugiat?</p>
+           <p>Asperiores maiores corrupti libero nam minima aut eaque tenetur vitae reiciendis quos eveniet repellendus consequuntur ratione cum, earum, sed molestias incidunt sapiente quibusdam culpa, eius reprehenderit, dolore error? Et, nemo?</p>
+         </article>
+         <!-- aside>h2{aside}+p*2>lorem -->
+          <!-- Asides are supplementary informtaion -->
+         <aside>
+           <h2>Aside</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nostrum amet similique, nemo cum consequatur repudiandae enim laudantium impedit ut voluptas repellat, at, nesciunt rerum, expedita nam cupiditate suscipit mollitia.</p>
+           <p>Suscipit placeat ratione minus sunt at recusandae saepe, eos minima vero, amet cupiditate maxime dignissimos ab laborum rerum quaerat reiciendis dolore possimus praesentium. Aspernatur, minima quisquam debitis harum repellat dignissimos.</p>
+         </aside>
+      </section>
+       <!-- footer>address+small -->
+       <footer>
+         <address>Anthony Pappalardo III</address>
+         <small>&copy; 2018</small>
+       </footer>
+    </div>
+  </body>
+</html>
