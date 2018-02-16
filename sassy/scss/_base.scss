@@ -18,6 +18,7 @@ header{
   }//h1
 }//header
 nav{
+  margin-top: -20px;
   ul{
     @include box;
     text-align: center;

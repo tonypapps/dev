@@ -18,30 +18,32 @@ header {
     text-align: center;
     font-family: "PT Sans", sans-serif; }
 
-nav ul {
-  background: grey;
-  padding: 2.5%;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border: solid 2px black;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-  text-align: center; }
-  nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 5%; }
-    nav ul li a {
-      text-decoration: none;
-      color: #39ff14;
-      padding: 10px;
-      transition: 0.75s; }
-    nav ul li a:hover, nav ul li a:active {
-      background-color: black;
-      border-radius: 10px;
-      color: white;
-      transition: 0.75s;
-      font-size: 1.5em; }
+nav {
+  margin-top: -20px; }
+  nav ul {
+    background: grey;
+    padding: 2.5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: solid 2px black;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center; }
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding-right: 5%; }
+      nav ul li a {
+        text-decoration: none;
+        color: #39ff14;
+        padding: 10px;
+        transition: 0.75s; }
+      nav ul li a:hover, nav ul li a:active {
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        transition: 0.75s;
+        font-size: 1.5em; }
 
 main {
   padding: 5%;
