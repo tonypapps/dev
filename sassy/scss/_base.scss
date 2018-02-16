@@ -1,0 +1,48 @@
+body{
+  background-color: $bgcolor;
+  color: whitesmoke;
+  font-family: $copyfont;
+}
+p{
+  text-indent: 50px;
+}
+header{
+  @include rounded_corner;
+  background-color: rgba(50,50,50,0.5);
+  padding: 2.5%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  h1{
+    text-align: center;
+    font-family: $headfont;
+  }//h1
+}//header
+nav{
+  ul{
+    @include box;
+    text-align: center;
+    li{
+      list-style: none;
+      display: inline-block;
+      padding-right: 5%;
+      a{
+        text-decoration: none;
+        color: #39ff14;
+        padding: 10px;
+        transition: 0.75s;
+      }
+      a:hover, a:active{
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        transition: 0.75s;
+        font-size: 1.5em;
+      }
+    }
+  }
+}//end nav
+main{
+  padding: 5%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
