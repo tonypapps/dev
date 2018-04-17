@@ -89,15 +89,6 @@ nav{
   }
 }
 // =======content======
-.code{
-  z-index: 99;
-  background-color: rgba(0,0,0,0);
-  canvas{
-    position: fixed;
-    margin-top: -4650px;
-    z-index: -1;
-  }
-}
 main{
   @include margins;
   @include paddings;
@@ -135,6 +126,15 @@ main{
       max-width: 100%;
       max-height: 100%;
     }
+  }
+}
+.code{
+  z-index: 99;
+  background-color: rgba(0,0,0,0);
+  canvas{
+    position: fixed;
+    margin-top: -4650px;
+    z-index: -1;
   }
 }
 .web-content{
@@ -185,6 +185,42 @@ main{
         max-height: 400px;
       }
     }
+  }
+}
+.dev-content{
+  margin-left: 0;
+  .dev-intro{
+    grid-area: dIntro;
+  }
+  .bash-me{
+    grid-area: bash;
+  }
+  .love-letters{
+    grid-area: LL;
+  }
+  .corpse{
+    grid-area: corpse;
+  }
+  .boiler{
+    grid-area: boiler;
+  }
+  .sprite{
+    grid-area: sprite;
+  }
+  .spriteA{
+    grid-area: spriteA;
+  }
+  .message{
+    grid-area: message;
+  }
+  .fauxCompany{
+    grid-area: faux;
+  }
+  .parallax{
+    grid-area: parallax;
+  }
+  .wp{
+    grid-area: wp;
   }
 }
 .contact-content{
@@ -267,6 +303,7 @@ main{
 }
 // ===========countdown=========
 .countdown-timer{
+  grid-area: cdtimer;
   .countdown-wrapper{
     display: flex;
     @include paddings;

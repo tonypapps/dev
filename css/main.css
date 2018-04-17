@@ -698,16 +698,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-.code {
-  z-index: 99;
-  background-color: transparent;
-}
-.code canvas {
-  position: fixed;
-  margin-top: -4650px;
-  z-index: -1;
-}
-
 main {
   margin: var(--top-bottom);
   margin-left: var(--left-right);
@@ -754,6 +744,16 @@ main section .portrait {
   max-height: 100%;
 }
 
+.code {
+  z-index: 99;
+  background-color: transparent;
+}
+.code canvas {
+  position: fixed;
+  margin-top: -4650px;
+  z-index: -1;
+}
+
 .web-content {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -797,6 +797,43 @@ main section .portrait {
 }
 .text-content .infographic-text figure img {
   max-height: 400px;
+}
+
+.dev-content {
+  margin-left: 0;
+}
+.dev-content .dev-intro {
+  grid-area: dIntro;
+}
+.dev-content .bash-me {
+  grid-area: bash;
+}
+.dev-content .love-letters {
+  grid-area: LL;
+}
+.dev-content .corpse {
+  grid-area: corpse;
+}
+.dev-content .boiler {
+  grid-area: boiler;
+}
+.dev-content .sprite {
+  grid-area: sprite;
+}
+.dev-content .spriteA {
+  grid-area: spriteA;
+}
+.dev-content .message {
+  grid-area: message;
+}
+.dev-content .fauxCompany {
+  grid-area: faux;
+}
+.dev-content .parallax {
+  grid-area: parallax;
+}
+.dev-content .wp {
+  grid-area: wp;
 }
 
 .contact-content ul li {
@@ -875,6 +912,9 @@ main section .portrait {
   outline: none;
 }
 
+.countdown-timer {
+  grid-area: cdtimer;
+}
 .countdown-timer .countdown-wrapper {
   display: flex;
   padding: var(--top-bottom);
@@ -1217,5 +1257,13 @@ footer {
     grid-template: 1fr 1fr/ 50% 50%;
     grid-column-gap: 2.5%;
     grid-template-areas: "sympFront sympBack";
+  }
+
+  .dev-content {
+    display: grid;
+    grid-rows: repeat(6 1fr);
+    grid-column: repeat(3 33%);
+    grid-column-gap: 2.5%;
+    grid-template-areas: "dIntro dIntro dIntro" "bash LL corpse" "boiler sprite spriteA" "message faux parallax" ". wp ." " cdtimer cdtimer cdtimer";
   }
 }

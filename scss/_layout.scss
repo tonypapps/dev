@@ -68,4 +68,17 @@
       "sympFront sympBack"
     }
   }
+  .dev-content{
+    display: grid;
+    grid-rows: repeat(6 1fr);
+    grid-column: repeat(3 33%);
+    grid-column-gap: 2.5%;
+    grid-template-areas:
+    "dIntro dIntro dIntro"
+    "bash LL corpse"
+    "boiler sprite spriteA"
+    "message faux parallax"
+    ". wp ."
+    " cdtimer cdtimer cdtimer"
+  }
 }
