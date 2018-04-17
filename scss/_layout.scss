@@ -1,0 +1,71 @@
+// body{
+//   margin: 40px;
+// }
+.linkedIn{
+  display: grid;
+  grid-template: 256px / 25% 75%;
+  grid-template-areas:
+  "iL tL";
+}
+.github{
+  display: grid;
+  grid-template: 256px/ 25% 75%;
+  grid-template-areas:
+  "iG tG";
+}
+.facebook{
+  display: grid;
+  grid-template: 256px/ 25% 75%;
+  grid-template-areas:
+  "iFB tFB";
+}
+.mail{
+  display: grid;
+  grid-template: 256px/ 25% 75%;
+  grid-template-areas:
+  "iM tM";
+}
+.phone{
+  display: grid;
+  grid-template: 256px/ 25% 75%;
+  grid-template-areas:
+  "iP tP";
+}
+@media screen and (min-width: 768px) {
+  header{
+    display: grid;
+    grid-template: 1fr 1fr / 25% 75%;
+    grid-template-areas:
+    "logo title"
+    "logo subtitle"
+  }
+  .top-bio{
+    display: grid;
+    grid-template: 2fr 2fr/ 50% 50%;
+    grid-template-areas:
+    "portrait ."
+    "portrait ."
+    "portrait about-me"
+    "portrait ."
+    "portrait .";
+  }
+  .web-projects{
+    display: grid;
+    grid-template: 1fr 1fr/ 50% 50%;
+    grid-column-gap: 2.5%;
+    grid-template-areas:
+    "cumulative cumulative"
+    "hello htext"
+    "garden responsive"
+    "clock clock";
+  }
+  .symphony{
+    figure{
+      display: grid;
+      grid-template: 1fr 1fr/ 50% 50%;
+      grid-column-gap: 2.5%;
+      grid-template-areas:
+      "sympFront sympBack"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@mixin margins {
+  margin: var(--top-bottom);
+  margin-left: var(--left-right);
+  margin-right: var(--left-right);
+}
+@mixin paddings {
+  padding: var(--top-bottom);
+  padding-left: var(--p-left-right);
+  padding-right: var(--p-left-right);
+}

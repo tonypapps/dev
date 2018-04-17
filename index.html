@@ -1,25 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dev Portfolio</title>
-</head>
-<body>
-  <header>
-    <h1>Creative Development Portfolio</h1>
-    <h2>Anthony Pappalardo III</h2>
-  </header>
-  <main>
-    <ul>
-      <li>
-        <a href="http://creative.colorado.edu/~anpa7322/dev/bash-me.html">Bash me</a>
-      </li>
-      <li><a href="http://creative.colorado.edu/~anpa7322/dev/love-letters/index.html">Love Letters</a></li>
-      <li><a href="http://creative.colorado.edu/~anpa7322/dev/exquisite_corpse/index.html">Exquisite Corpse</a></li>
-      <li><a href="https://github.com/tonypapps/love-letters.git">GitHub</a></li>
-    </ul>
-  </main>
-</body>
+<!doctype html>
+<html class="no-js wood-background" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/main.css">
+        <title>Anthony Pappalardo III</title>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <div class="web-wrapper">
+          <header>
+            <h1>Creative Development</h1>
+            <h2>Spring 2018</h2>
+            <figure>
+              <img src="http://via.placeholder.com/200x200" alt="Logo">
+            </figure>
+          </header>
+          <nav id="navbar">
+            <i class="menu-btn fa fa-2x fa-bars" id="menu" onclick="toggleDropdownMenu()"></i>
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                  <a href="#">Design Minor</a>
+                  <ul class="drop-nav">
+                    <li><a href="web.html">Web Design</a></li>
+                    <li><a href="code.html">Code</a></li>
+                    <li><a href="text.html">Text</a></li>
+                    <li><a href="http://creative.colorado.edu/~anpa7322/dev/index.html">Creative Development</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Real World</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://github.com/tonypapps">GitHub</a></li>
+            </ul>
+          </nav>
+          <main class="web-content">
+            <section>
+              <h3>About The Class</h3>
+              <p>This class was the next level in web development. During the class, I learned to design and develop creative websites and advanced my understanding of the primary frontend web languages HTML5, CSS, and JavaScript. The course utilized higher-level development tools and open source frameworks to achieve a modern work-flow. The class was an experimental sandbox that played with bleeding-edge web technologies with subversion and vigor!</p>
+            </section>
+            <section class="dev-projects">
+              <div class="bash-me">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="" align: "middle">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/bash-me.html">Bash Me</a>
+                </h3>
+                <p>A one page html document using ONLY the terminal (no GUI). First use of BASH. The html markup was coded in the terminal using NANO.</p>
+              </div>
+              <div class="love-letters">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/love-letters/index.html">Love Letters</a>
+                </h3>
+                <p>This project created three html5 semantic pages expressing my undying love AND instructions on how to use BASH, GIT, and GITHUB. The website shares my fondness for these three developer tools by creating a mashup standard operating procedure/love letter for each of them. Each page is uniquely styled with love and css. One of them is a break-up letter. Git commit and push to github were used obsessively.</p>
+              </div>
+              <div class="corpse">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/exquisite_corpse/index.html">Exquisite Corpse</a>
+                </h3>
+                <p>A method invented by the surrealists by which a collection of words or images is collectively assembled. Each collaborator adds to a composition in sequence. This project constructed a creative narrative where each team member contributes a paragraph based on of what the previous person contributed. The design of the webpage is also a collaborative effort. </p>
+              </div>
+              <div class="boiler">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/boiler-room/index.html">CSS Zen Garden</a>
+                </h3>
+                <p>A starting template that combines html5 boilerplate with a sass/compass directory setup. </p>
+              </div>
+              <div class="sprite">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/sprite/index.html">Sprite Sheet</a>
+                </h3>
+                <p>A compass project and a themed web page that features 10 custom sprite icons (with rollovers). Compass' sprite generator was used to create a sprite sheet with at least 10 custom image icons with corresponding rollovers (20 images total) that are the same width and height and optimized as transparent png-24.</p>
+              </div>
+              <div class="spriteA">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/sprite-animation/index.html">Animation</a>
+                </h3>
+                <p>A compass project and a themed web page that features sprite animation. The images were created to line up like a flipbook. Animated using css animation</p>
+              </div>
+              <div class="message">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="http://creative.colorado.edu/~anpa7322/dev/message/index.html">Message</a>
+                </h3>
+                <p>A one page website using css grids and google analytics. The content for the project is a discrete unit of communication intended for consumption by a group of recipients or simply put - a message. Promoted the message with social networks and email blasts and then used google analytics to track how far the message reached and what technologies were used to consume it.</p>
+              </div>
+              <div class="fauxCompany">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="#">Faux Company</a>
+                </h3>
+                <p>Used the modern workflow - git, github, html5 boilerplate, sass, compass, css grids, and google analytics to create a professional responsive website that sells something (product, fantasy, idea). Included custom icons using a compass generated sprite sheet. Design images were optimized and original. Git commit and push to github vigorously</p>
+              </div>
+              <div class="parallax">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="#">Parallax Narrative</a>
+                </h3>
+                <p>A narrative using the mechanic of css parallax scrolling with the theme "A Day in the Life..."</p>
+              </div>
+              <div class="wp">
+                <figure>
+                  <img src="http://via.placeholder.com/350x150" alt="">
+                </figure>
+                <h3>
+                  <a href="#">Wordpress</a>
+                </h3>
+                <p>A self-hosted custom wordpress site from scratch using the underscores (_s) starter theme. The site should serve as a personal (professional) space to display your creative body of work (portfolio), as well as a space to document your current and future projects.</p>
+              </div>
+            </section>
+            <section class="countdown-timer">
+              <h3>Countdown To Graduation!</h3>
+              <div class="countdown-wrapper">
+                <div id="years">
+                  <h4>Years:</h4>
+                  <span id="yearsBox"></span>
+                </div>
+                <div id="months">
+                  <h4>Months:</h4>
+                  <span id="monthsBox"></span>
+                </div>
+                <div id="days">
+                  <h4>Days:</h4>
+                  <span id="daysBox"></span>
+                </div>
+                <div id="hours">
+                  <h4>Hours:</h4>
+                  <span id="hoursBox"></span>
+                </div>
+                <div id="minutes">
+                  <h4>Minutes:</h4>
+                  <span id="minutesBox"></span>
+                </div>
+                <div id="seconds">
+                  <h4>Seconds:</h4>
+                  <span id="secondsBox"></span>
+                </div>
+              </div>
+            </section>
+          </main>
+          <footer>
+            <small>Anthony Pappalardo III &copy; 2018 </small>
+          </footer>
+        </div>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js">
+        </script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
