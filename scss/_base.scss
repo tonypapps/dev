@@ -188,7 +188,13 @@ main{
   }
 }
 .dev-content{
-  margin-left: 0;
+  figure{
+    width: 60%;
+
+  }
+  img{
+    width: 100%;
+  }
   .dev-intro{
     grid-area: dIntro;
   }

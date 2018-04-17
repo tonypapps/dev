@@ -31,7 +31,7 @@
   grid-template-areas:
   "iP tP";
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   header{
     display: grid;
     grid-template: 1fr 1fr / 25% 75%;
@@ -70,8 +70,8 @@
   }
   .dev-content{
     display: grid;
-    grid-rows: repeat(6 1fr);
-    grid-column: repeat(3 33%);
+    grid-rows: repeat(6, 1fr);
+    grid-column: repeat(3, 33%);
     grid-column-gap: 2.5%;
     grid-template-areas:
     "dIntro dIntro dIntro"
@@ -82,3 +82,20 @@
     " cdtimer cdtimer cdtimer"
   }
 }
+// @media screen and (max-width: 768px) {
+//   .dev-content{
+//     display: grid;
+//     grid-rows: repeat(6, 1fr);
+//     grid-column: repeat(1, 100%);
+//     grid-column-gap: 2.5%;
+//     grid-template-areas:
+//     "dIntro"
+//     "bash"
+//      "LL"
+//     "corpse"
+//     "boiler sprite spriteA"
+//     "message faux parallax"
+//     ". wp ."
+//     " cdtimer cdtimer cdtimer"
+//   }
+// }
