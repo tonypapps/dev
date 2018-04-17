@@ -714,6 +714,12 @@ main a:hover {
   transition: 1s;
   font-size: 1.25em;
 }
+main figure {
+  width: 70%;
+}
+main figure img {
+  width: 100%;
+}
 main section {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: var(--br);
@@ -799,12 +805,6 @@ main section .portrait {
   max-height: 400px;
 }
 
-.dev-content figure {
-  width: 60%;
-}
-.dev-content img {
-  width: 100%;
-}
 .dev-content .dev-intro {
   grid-area: dIntro;
 }

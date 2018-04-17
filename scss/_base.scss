@@ -100,6 +100,12 @@ main{
     transition: 1s;
     font-size: 1.25em;
   }
+  figure{
+    width: 70%;
+    img{
+      width: 100%;
+    }
+  }
   section{
     background-color: rgba(0,0,0,0.75);
     border-radius: var(--br);
@@ -188,13 +194,6 @@ main{
   }
 }
 .dev-content{
-  figure{
-    width: 60%;
-
-  }
-  img{
-    width: 100%;
-  }
   .dev-intro{
     grid-area: dIntro;
   }
