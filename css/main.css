@@ -651,6 +651,7 @@ nav {
   margin-left: var(--left-right);
   margin-right: var(--left-right);
   margin-left: 0;
+  margin-top: 0;
   padding: 2px;
   padding-left: 2.5%;
   z-index: 99;
@@ -715,10 +716,12 @@ main a:hover {
   font-size: 1.25em;
 }
 main figure {
-  width: 70%;
+  width: 90%;
 }
-main figure img {
-  width: 100%;
+main figure iframe {
+  background-color: whitesmoke;
+  width: 95%;
+  border: none;
 }
 main section {
   background-color: rgba(0, 0, 0, 0.75);

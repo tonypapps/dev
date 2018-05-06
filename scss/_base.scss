@@ -44,6 +44,7 @@ nav{
   width: 100%;
   @include margins;
   margin-left: 0;
+  margin-top: 0;
   padding: 2px;
   padding-left: 2.5%;
   z-index: 99;
@@ -101,9 +102,11 @@ main{
     font-size: 1.25em;
   }
   figure{
-    width: 70%;
-    img{
-      width: 100%;
+    width: 90%;
+    iframe{
+      background-color: rgb(245,245,245);
+      width: 95%;
+      border: none;
     }
   }
   section{
